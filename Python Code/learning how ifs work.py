@@ -14,3 +14,10 @@ for q in range(0,100):
         print(q, "is smaller than 8")
     if q == 69:
         print(q, "haha funny number")
+fruits = ["apple", "banana", "kiwi", "pineapple", "mango"]
+fruits.remove("apple")
+for x in range(4):
+    if "apple" in fruits:
+        print("yes")
+    else:
+        print("no")
